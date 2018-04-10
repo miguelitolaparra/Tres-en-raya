@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Juego de las tres en raya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="tresEnRaya.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>TRES EN RAYA</h1>
+        </div>
+        <div class="player">
+            <div class="player-o current">
+                o
+            </div>
+            <div class="player-x">
+                x
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col" value="1">
+                    <svg width="400" height="400" class="x" style="display: none">
+                        <line x1="20" y1="20" x2="110" y2="110" />
+                        <line x1="110" y1="20" x2="20" y2="110" class="delay" />
+                    </svg>
+                    <svg width="2000" height="2000" class="o" style="display: none">
+                        <circle cx="63" cy="63" r="40" fill="transparent" stroke-width="10" stroke="white" />
+                    </svg>
+                </div>
+                <div class="col" value="2">
+                    <svg width="400" height="400" class="x" style="display: none">
+                        <line x1="20" y1="20" x2="110" y2="110" />
+                        <line x1="110" y1="20" x2="20" y2="110" class="delay" />
+                    </svg>
+                    <svg width="2000" height="2000" class="o" style="display: none">
+                        <circle cx="63" cy="63" r="40" fill="transparent" stroke-width="10" stroke="white" />
+                    </svg>
+                </div>
+                <div class="col" value="3">
+                    <svg width="400" height="400" class="x" style="display: none">
+                        <line x1="20" y1="20" x2="110" y2="110" />
+                        <line x1="110" y1="20" x2="20" y2="110" class="delay" />
+                    </svg>
+                    <svg width="2000" height="2000" class="o" style="display: none">
+                        <circle cx="63" cy="63" r="40" fill="transparent" stroke-width="10" stroke="white" />
+                    </svg>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" value="4">
+                    <svg width="400" height="400" class="x" style="display: none">
+                        <line x1="20" y1="20" x2="110" y2="110" />
+                        <line x1="110" y1="20" x2="20" y2="110" class="delay" />
+                    </svg>
+                    <svg width="2000" height="2000" class="o" style="display: none">
+                        <circle cx="63" cy="63" r="40" fill="transparent" stroke-width="10" stroke="white" />
+                    </svg>
+                </div>
+                <div class="col" value="5">
+                    <svg width="400" height="400" class="x" style="display: none">
+                        <line x1="20" y1="20" x2="110" y2="110" />
+                        <line x1="110" y1="20" x2="20" y2="110" class="delay" />
+                    </svg>
+                    <svg width="2000" height="2000" class="o" style="display: none">
+                        <circle cx="63" cy="63" r="40" fill="transparent" stroke-width="10" stroke="white" />
+                    </svg>
+                </div>
+                <div class="col" value="6">
+                    <svg width="400" height="400" class="x" style="display: none">
+                        <line x1="20" y1="20" x2="110" y2="110" />
+                        <line x1="110" y1="20" x2="20" y2="110" class="delay" />
+                    </svg>
+                    <svg width="2000" height="2000" class="o" style="display: none">
+                        <circle cx="63" cy="63" r="40" fill="transparent" stroke-width="10" stroke="white" />
+                    </svg>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" value="7">
+                    <svg width="400" height="400" class="x" style="display: none">
+                        <line x1="20" y1="20" x2="110" y2="110" />
+                        <line x1="110" y1="20" x2="20" y2="110" class="delay" />
+                    </svg>
+                    <svg width="2000" height="2000" class="o" style="display: none">
+                        <circle cx="63" cy="63" r="40" fill="transparent" stroke-width="10" stroke="white" />
+                    </svg>
+                </div>
+                <div class="col" value="8">
+                    <svg width="400" height="400" class="x" style="display: none">
+                        <line x1="20" y1="20" x2="110" y2="110" />
+                        <line x1="110" y1="20" x2="20" y2="110" class="delay" />
+                    </svg>
+                    <svg width="2000" height="2000" class="o" style="display: none">
+                        <circle cx="63" cy="63" r="40" fill="transparent" stroke-width="10" stroke="white" />
+                    </svg>
+                </div>
+                <div class="col" value="9">
+                    <svg width="400" height="400" class="x" style="display: none">
+                        <line x1="20" y1="20" x2="110" y2="110" />
+                        <line x1="110" y1="20" x2="20" y2="110" class="delay" />
+                    </svg>
+                    <svg width="2000" height="2000" class="o" style="display: none">
+                        <circle cx="63" cy="63" r="40" fill="transparent" stroke-width="10" stroke="white" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <section>
+            <script src="tresEnRaya.js"></script>
+</body>
+
+</html>
